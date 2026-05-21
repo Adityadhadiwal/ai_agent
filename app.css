@@ -1,0 +1,39 @@
+body {
+  background: #0f172a;
+  color: white;
+  font-family: Arial;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.chat {
+  height: 400px;
+  overflow-y: auto;
+}
+
+.bubble {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.user {
+  background: #2563eb;
+  text-align: right;
+}
+
+.agent {
+  background: #1e293b;
+}
+
+button {
+  margin: 5px;
+  padding: 5px 10px;
+  background: #22c55e;
+  border: none;
+  border-radius: 5px;
+}
